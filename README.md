@@ -10,6 +10,14 @@ To make this easier, Captain's Log simply asks you every day at 5pm and stores y
 
 Extract to `~/bin/captains-log` (or change the path in the script).
 
-Load the crontab config like this. **Warning:** This will override any existing crontab configuration.
+Load the crontab config like this.
+
+**Warning:** This will override any existing crontab configuration.
 
     crontab ~/bin/captains-log/crontab.config
+
+# Screenshots
+
+![Dialog asking the user to log their day's activities](docs/log.png)
+![Confirmation dialog](docs/ego.png)
+![Resulting log file](docs/file.png)
